@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Techie Community</title>
+    <link rel="stylesheet" href="./home1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <a class="logo">Techie</a>
+        <nav class="navbar">
+           <a href="#home">Home</a>
+           <a href="#members">Members</a>
+           <a href="#projects">Projects</a>
+           <a href="#experience">Experience</a>
+           <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="details">
+            <p class="t1">Welcome to Our Community!</p>
+            <p class="desc">A platform to connect and grow together.</p>
+            <button class="cta" onclick="ScrollToElement('contact')">Join Us</button>
+        </div>
+        <div class="person">
+            <img class="person-img" src="./images/community.png" alt="Community Image">
+        </div>
+    </section>
+
+<!-- Members Section -->
+<section class="members" id="members">
+    <h2 class="section-title">Community Members</h2>
+    <div class="members-container">
+        <div class="member">
+            <img src="./images/member1.jpg" alt="Member 1">
+            <h3>Sasikanth E</h3>
+            <p>UI/UX Designer</p>
+        </div>
+        <div class="member">
+            <img src="./images/member2.jpg" alt="Member 2">
+            <h3>Rajeshkumar P</h3>
+            <p>Frontend Developer</p>
+        </div>
+        <div class="member">
+            <img src="./images/member3.jpg" alt="Member 3">
+            <h3>Shibiyarasu K B</h3>
+            <p>Back-End Developer</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="section-title">
+            <p> 
+                Projects
+            <p>
+        </div>
+        <div class="miniproject">
+            <p class="m-head">
+                MiniProject
+            </p>
+
+            <div class="miniproject-border">
+
+            <p class="p-head">
+                Dairy Greens
+            </p>
+                <img class="p-logo" src="./images/dairy greens.jpg" alt="DairyGreens LOGO">
+            
+            </div>
+            <p class="p-desc" href="#">
+                A website for Local farmers to Showcase and Sell their Dairy & Farm Products 
+                to reduce brokerage and More profits to Farmers And It removes the barrier between the Farmer and Customer.
+            </p>
+            
+    </section>
+
+    <!-- Experience Section -->
+<section class="experiences" id="experience">
+    <h1 class="section-title">Experience</h1>
+    <div class="experiences-table-container">
+        <table class="experiences-table">
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>Role</th>
+                    <th>Skills</th>
+                    <th>Duration</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i class="fa-solid fa-laptop icon"></i> Making Minds</td>
+                    <td>Frontend Developer</td>
+                    <td>HTML, CSS, JavaScript</td>
+                    <td>From: Jan 2024 - Still</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-brands fa-app-store-ios icon"></i> Techie</td>
+                    <td>Mobile Developer</td>
+                    <td>Flutter, Android Development, App</td>
+                    <td>From: Sep 2023 - Still</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+
+
+<!-- Contact-->
+
+    <section class="contact" id="contact">
+        <h1 class="section-title">Contact </h1>
+        <div class="contact-form">
+            <form action="mailto:rajeshkumarponnudurai@gmail.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send</button>
+            </form>
+        </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2 class="logo-text">Our Community</h2>
+                <p>
+                    Join our community of developers and designers to learn, share, and grow together with
+                    <pre>                          Sasikanth
+                          Rajeshkumar  &
+                          Shibiyarasu
+                    </pre>
+                </p>
+                <div class="contact">
+                    <span><i class="fas fa-phone"></i> &nbsp; +91-7825912494</span>
+                    <span><i class="fas fa-envelope"></i> &nbsp; techie.info.in</span>
+                </div>
+            </div>
+
+            <div class="footer-section links">
+                <h2 class="logo-text">Quick Links</h2>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#members">Members</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section map">
+                <h2 class="logo-text">Our Location</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31359.91555717674!2d77.50027974297535!3d10.735296587134714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba9bf8dce0d08cb%3A0x2a6c8d1c21a80cad!2sDharapuram%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1725815704472!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div>&copy; 2024 Our Community. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <script>
+        function ScrollToElement(elementId) {
+    const element = document.getElementById(elementId);
+    if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+    } else {
+        console.error(`Element with ID '${elementId}' not found.`);
+    }
+}
+    </script>
+</body>
+</html>
